@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Practica 1</string>
+    <string name="Bienvenida">Bienvenido</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelcar">Cancelar</string>
+    <string name="BFormulario">Coloca tus datos</string>
+    <string name="nombre">Nombre</string>
+    <string name="edad">Edad</string>
+    <string name="correo">Correo</string>
+    <string name="fecha">Fecha</string>
+    <string name="BLimpiar">Limpiar</string>
+    <string name="Bsiguiente">Siguente</string>
+    <string name="edNombre">Nombre completo</string>
+    <string name="EDedad">Cuantos años tienes</string>
+    <string name="EdCorreo">Tu correo electronico</string>
+    <string name="edFecha">DD-MM-AAAA</string>
+    <string name="hola">HOLA</string>
+    <string name="Nombre">Lubin</string>
+    <string name="Tedad">Tienes 15 años</string>
+    <string name="menu">Menu</string>
+</resources>

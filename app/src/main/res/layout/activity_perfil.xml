@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".perfil"
+        android:orientation="vertical">
+
+    <TextView
+            android:text="@string/BFormulario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Tbien"
+            android:textSize="40sp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/ColorLigth"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+
+        <TextView
+                android:text="@string/nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TNombre"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textColor="@color/ColorLigth"/>
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/ETNombre"
+                android:layout_weight="1"
+                android:hint="@string/edNombre"
+                android:autofillHints="@string/edNombre" android:text="Lubass"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+
+        <TextView
+                android:text="@string/edad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Tdad"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textColor="@color/ColorLigth"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned"
+                android:ems="10"
+                android:id="@+id/ETEdad"
+                android:layout_weight="1"
+                android:hint="@string/EDedad"
+                android:autofillHints="@string/EDedad" android:text="25"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+
+        <TextView
+                android:text="@string/correo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TCorreo"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textColor="@color/ColorLigth"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/ETCorreo"
+                android:layout_weight="1"
+                android:hint="@string/EdCorreo"
+                android:autofillHints="@string/EdCorreo" android:text="lubinpc@gmail.com"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <TextView
+                android:text="@string/fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TFecha"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textColor="@color/ColorLigth"/>
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:ems="10"
+                android:id="@+id/ETFecha"
+                android:layout_weight="1"
+                android:hint="@string/edFecha"
+                android:autofillHints="@string/edFecha" android:text="05-02-1997"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp">
+        <Button
+                android:text="@string/BLimpiar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bLimpiar"
+                android:layout_weight="1"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+        <Button
+                android:text="@string/Bsiguiente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bSig"
+                android:layout_weight="1"
+                style="@style/Widget.AppCompat.Button.Colored"/>
+    </LinearLayout>
+
+</LinearLayout>
